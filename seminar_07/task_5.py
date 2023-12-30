@@ -12,12 +12,6 @@ from random import randint, choices
 from string import ascii_lowercase, digits
 
 
-def files_generator(**kwargs) -> None:
-    for extension, count in kwargs.items():
-        create_files(extension, count_files=count)
-
-
-
 def create_files(extension: str, min_len_name: int=6, max_len_name: int=30,
                  min_file_size: int=256, max_file_size: int=4096, count_files: int=42) -> None:
     for _ in range(count_files):
@@ -25,6 +19,10 @@ def create_files(extension: str, min_len_name: int=6, max_len_name: int=30,
         data = bytes(randint(0, 255) for _ in range(randint(min_file_size, max_file_size + 1)))
         with open(f'{filename}.{extension}', 'wb') as f:
             f.write(data)
+
+def files_generator(**kwargs) -> None:
+    for extension, count in kwargs.items():
+        create_files(extension, count_files=count)
 
 
 

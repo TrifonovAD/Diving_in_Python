@@ -21,4 +21,5 @@ def fill_file_names(filename: str | Path, quantity_names: int) -> None:
                 file_names.write(f'{name.capitalize()}\n')
                 quantity_names -= 1
 
-fill_file_names('names.txt', 15)
+if __name__ == '__main__':
+    fill_file_names('names.txt', 15)
