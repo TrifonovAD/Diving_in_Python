@@ -1,0 +1,5 @@
+INFO     2023-12-31 01:45:11,706 date_parser.date_parsing '1-й понедельник января' - Ok
+ERROR    2023-12-31 01:45:11,706 date_parser.date_parsing '7-й вторник мая' - Wrong week number of a month! Week number must be from 1 to 4 included.
+INFO     2023-12-31 01:45:11,706 date_parser.date_parsing '4-я суббота июня' - Ok
+ERROR    2023-12-31 01:45:11,706 date_parser.date_parsing '3-й фторник марта' - Wrong name of weekday!
+ERROR    2023-12-31 01:45:11,707 date_parser.date_parsing '4-я среда' - not enough values to unpack (expected 3, got 2)
