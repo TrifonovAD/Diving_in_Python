@@ -1,0 +1,14 @@
+INFO     2023-12-31 01:55:30,438 students.education 'Математика - 5, 12' - Ok
+INFO     2023-12-31 01:55:30,439 students.education 'None' - Ok
+INFO     2023-12-31 01:57:02,681 students.education 'Математика - 5, 12' - Ok
+INFO     2023-12-31 01:57:02,681 students.education 'Физика - 5, 10' - Ok
+INFO     2023-12-31 01:57:02,682 students.education 'None' - Ok
+INFO     2023-12-31 01:57:19,612 students.education 'Математика - 5, 12' - Ok
+INFO     2023-12-31 01:57:19,612 students.education 'Физика - 5, 10' - Ok
+INFO     2023-12-31 01:57:19,612 students.education 'Химия - 4, 17' - Ok
+INFO     2023-12-31 01:57:19,613 students.education 'None' - Ok
+INFO     2023-12-31 01:57:27,876 students.education 'Математика - 5, 12' - Ok
+INFO     2023-12-31 01:57:27,876 students.education 'Физика - 5, 10' - Ok
+INFO     2023-12-31 01:57:27,876 students.education 'Химия - 4, 17' - Ok
+ERROR    2023-12-31 01:57:27,878 students.education 'Химия - 5, 18' - Химия - недопустимая дисциплина, или уже есть в списке!
+INFO     2023-12-31 01:57:27,879 students.education 'None' - Ok
